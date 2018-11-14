@@ -6,3 +6,4 @@ exit" > TCCCMD.BAT
 dosbox -conf ~/.dosbox/tcc.conf -c TCCCMD
 
 cat OUTPUT.LOG
+rm TCCCMD.BAT

@@ -20,3 +20,5 @@ INSTRUCTIONS:
 If you want to use other compilers instead of tcc, just edit the tcc file included here and rename it to whatever you want, and change the script to use that file instead of tcc.
 
 Then run install.sh and follow the instructions (The defaults need root, since I place the file in /usr/bin, if you dont trust the script, just copy tcc manually to /usr/bin and copy tcc.conf to ~/.dosbox)
+
+(Did have some issues running Turbo C++ 3.0 with this method if the CPU core type on dosbox was set to auto, DRC64 memory issue or something like that, setting it to normal fixed it.)
